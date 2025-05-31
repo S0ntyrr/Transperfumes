@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>PedidoServlet</servlet-name>
+        <servlet-class>com.transperfumes.servlet.PedidoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PedidoServlet</servlet-name>
+        <url-pattern>/pedido</url-pattern>
+    </servlet-mapping>
+</web-app>
